@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90289B12996D0FA007BE250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289B02996D0FA007BE250 /* AppDelegate.swift */; };
+		E90289B32996D0FA007BE250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289B22996D0FA007BE250 /* SceneDelegate.swift */; };
+		E90289B52996D0FA007BE250 /* OptionAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289B42996D0FA007BE250 /* OptionAViewController.swift */; };
+		E90289B82996D0FA007BE250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90289B62996D0FA007BE250 /* Main.storyboard */; };
+		E90289BA2996D0FA007BE250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90289B92996D0FA007BE250 /* Assets.xcassets */; };
+		E90289BD2996D0FA007BE250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90289BB2996D0FA007BE250 /* LaunchScreen.storyboard */; };
+		E90289C82996D0FA007BE250 /* YunoExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289C72996D0FA007BE250 /* YunoExampleTests.swift */; };
+		E90289D22996D0FA007BE250 /* YunoExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289D12996D0FA007BE250 /* YunoExampleUITests.swift */; };
+		E90289D42996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289D32996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift */; };
+		E90289E12996D12D007BE250 /* EnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289E02996D12D007BE250 /* EnvironmentViewController.swift */; };
+		E90289E32996D214007BE250 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289E22996D214007BE250 /* UserDefault.swift */; };
+		E90289E62996D2C8007BE250 /* YunoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E90289E52996D2C8007BE250 /* YunoSDK */; };
+		E90289E82996D7A0007BE250 /* OptionBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289E72996D7A0007BE250 /* OptionBViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E90289C42996D0FA007BE250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90289A52996D0FA007BE250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90289AC2996D0FA007BE250;
+			remoteInfo = YunoExample;
+		};
+		E90289CE2996D0FA007BE250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90289A52996D0FA007BE250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90289AC2996D0FA007BE250;
+			remoteInfo = YunoExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E90289AD2996D0FA007BE250 /* YunoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90289B02996D0FA007BE250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E90289B22996D0FA007BE250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E90289B42996D0FA007BE250 /* OptionAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionAViewController.swift; sourceTree = "<group>"; };
+		E90289B72996D0FA007BE250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E90289B92996D0FA007BE250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90289BC2996D0FA007BE250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90289BE2996D0FA007BE250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90289C32996D0FA007BE250 /* YunoExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunoExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90289C72996D0FA007BE250 /* YunoExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunoExampleTests.swift; sourceTree = "<group>"; };
+		E90289CD2996D0FA007BE250 /* YunoExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunoExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90289D12996D0FA007BE250 /* YunoExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunoExampleUITests.swift; sourceTree = "<group>"; };
+		E90289D32996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunoExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E90289E02996D12D007BE250 /* EnvironmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewController.swift; sourceTree = "<group>"; };
+		E90289E22996D214007BE250 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		E90289E72996D7A0007BE250 /* OptionBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionBViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90289AA2996D0FA007BE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90289E62996D2C8007BE250 /* YunoSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90289C02996D0FA007BE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90289CA2996D0FA007BE250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90289A42996D0FA007BE250 = {
+			isa = PBXGroup;
+			children = (
+				E90289AF2996D0FA007BE250 /* YunoExample */,
+				E90289C62996D0FA007BE250 /* YunoExampleTests */,
+				E90289D02996D0FA007BE250 /* YunoExampleUITests */,
+				E90289AE2996D0FA007BE250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90289AE2996D0FA007BE250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90289AD2996D0FA007BE250 /* YunoExample.app */,
+				E90289C32996D0FA007BE250 /* YunoExampleTests.xctest */,
+				E90289CD2996D0FA007BE250 /* YunoExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90289AF2996D0FA007BE250 /* YunoExample */ = {
+			isa = PBXGroup;
+			children = (
+				E90289B02996D0FA007BE250 /* AppDelegate.swift */,
+				E90289B22996D0FA007BE250 /* SceneDelegate.swift */,
+				E90289B42996D0FA007BE250 /* OptionAViewController.swift */,
+				E90289E72996D7A0007BE250 /* OptionBViewController.swift */,
+				E90289E02996D12D007BE250 /* EnvironmentViewController.swift */,
+				E90289B62996D0FA007BE250 /* Main.storyboard */,
+				E90289B92996D0FA007BE250 /* Assets.xcassets */,
+				E90289BB2996D0FA007BE250 /* LaunchScreen.storyboard */,
+				E90289BE2996D0FA007BE250 /* Info.plist */,
+				E90289E22996D214007BE250 /* UserDefault.swift */,
+			);
+			path = YunoExample;
+			sourceTree = "<group>";
+		};
+		E90289C62996D0FA007BE250 /* YunoExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E90289C72996D0FA007BE250 /* YunoExampleTests.swift */,
+			);
+			path = YunoExampleTests;
+			sourceTree = "<group>";
+		};
+		E90289D02996D0FA007BE250 /* YunoExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E90289D12996D0FA007BE250 /* YunoExampleUITests.swift */,
+				E90289D32996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift */,
+			);
+			path = YunoExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90289AC2996D0FA007BE250 /* YunoExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90289D72996D0FA007BE250 /* Build configuration list for PBXNativeTarget "YunoExample" */;
+			buildPhases = (
+				E90289A92996D0FA007BE250 /* Sources */,
+				E90289AA2996D0FA007BE250 /* Frameworks */,
+				E90289AB2996D0FA007BE250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YunoExample;
+			packageProductDependencies = (
+				E90289E52996D2C8007BE250 /* YunoSDK */,
+			);
+			productName = YunoExample;
+			productReference = E90289AD2996D0FA007BE250 /* YunoExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E90289C22996D0FA007BE250 /* YunoExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90289DA2996D0FA007BE250 /* Build configuration list for PBXNativeTarget "YunoExampleTests" */;
+			buildPhases = (
+				E90289BF2996D0FA007BE250 /* Sources */,
+				E90289C02996D0FA007BE250 /* Frameworks */,
+				E90289C12996D0FA007BE250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90289C52996D0FA007BE250 /* PBXTargetDependency */,
+			);
+			name = YunoExampleTests;
+			productName = YunoExampleTests;
+			productReference = E90289C32996D0FA007BE250 /* YunoExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E90289CC2996D0FA007BE250 /* YunoExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90289DD2996D0FA007BE250 /* Build configuration list for PBXNativeTarget "YunoExampleUITests" */;
+			buildPhases = (
+				E90289C92996D0FA007BE250 /* Sources */,
+				E90289CA2996D0FA007BE250 /* Frameworks */,
+				E90289CB2996D0FA007BE250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90289CF2996D0FA007BE250 /* PBXTargetDependency */,
+			);
+			name = YunoExampleUITests;
+			productName = YunoExampleUITests;
+			productReference = E90289CD2996D0FA007BE250 /* YunoExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90289A52996D0FA007BE250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E90289AC2996D0FA007BE250 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					E90289C22996D0FA007BE250 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E90289AC2996D0FA007BE250;
+					};
+					E90289CC2996D0FA007BE250 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = E90289AC2996D0FA007BE250;
+					};
+				};
+			};
+			buildConfigurationList = E90289A82996D0FA007BE250 /* Build configuration list for PBXProject "YunoExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90289A42996D0FA007BE250;
+			packageReferences = (
+				E90289E42996D2C7007BE250 /* XCRemoteSwiftPackageReference "yuno-sdk-ios" */,
+			);
+			productRefGroup = E90289AE2996D0FA007BE250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90289AC2996D0FA007BE250 /* YunoExample */,
+				E90289C22996D0FA007BE250 /* YunoExampleTests */,
+				E90289CC2996D0FA007BE250 /* YunoExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90289AB2996D0FA007BE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90289BD2996D0FA007BE250 /* LaunchScreen.storyboard in Resources */,
+				E90289BA2996D0FA007BE250 /* Assets.xcassets in Resources */,
+				E90289B82996D0FA007BE250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90289C12996D0FA007BE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90289CB2996D0FA007BE250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90289A92996D0FA007BE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90289B52996D0FA007BE250 /* OptionAViewController.swift in Sources */,
+				E90289B12996D0FA007BE250 /* AppDelegate.swift in Sources */,
+				E90289E82996D7A0007BE250 /* OptionBViewController.swift in Sources */,
+				E90289E32996D214007BE250 /* UserDefault.swift in Sources */,
+				E90289E12996D12D007BE250 /* EnvironmentViewController.swift in Sources */,
+				E90289B32996D0FA007BE250 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90289BF2996D0FA007BE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90289C82996D0FA007BE250 /* YunoExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90289C92996D0FA007BE250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90289D42996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift in Sources */,
+				E90289D22996D0FA007BE250 /* YunoExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E90289C52996D0FA007BE250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90289AC2996D0FA007BE250 /* YunoExample */;
+			targetProxy = E90289C42996D0FA007BE250 /* PBXContainerItemProxy */;
+		};
+		E90289CF2996D0FA007BE250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90289AC2996D0FA007BE250 /* YunoExample */;
+			targetProxy = E90289CE2996D0FA007BE250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E90289B62996D0FA007BE250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90289B72996D0FA007BE250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E90289BB2996D0FA007BE250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90289BC2996D0FA007BE250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90289D52996D0FA007BE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E90289D62996D0FA007BE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90289D82996D0FA007BE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YunoExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuno.YunoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E90289D92996D0FA007BE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YunoExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuno.YunoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E90289DB2996D0FA007BE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuno.YunoExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YunoExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YunoExample";
+			};
+			name = Debug;
+		};
+		E90289DC2996D0FA007BE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuno.YunoExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YunoExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YunoExample";
+			};
+			name = Release;
+		};
+		E90289DE2996D0FA007BE250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuno.YunoExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YunoExample;
+			};
+			name = Debug;
+		};
+		E90289DF2996D0FA007BE250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuno.YunoExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YunoExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90289A82996D0FA007BE250 /* Build configuration list for PBXProject "YunoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90289D52996D0FA007BE250 /* Debug */,
+				E90289D62996D0FA007BE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90289D72996D0FA007BE250 /* Build configuration list for PBXNativeTarget "YunoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90289D82996D0FA007BE250 /* Debug */,
+				E90289D92996D0FA007BE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90289DA2996D0FA007BE250 /* Build configuration list for PBXNativeTarget "YunoExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90289DB2996D0FA007BE250 /* Debug */,
+				E90289DC2996D0FA007BE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90289DD2996D0FA007BE250 /* Build configuration list for PBXNativeTarget "YunoExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90289DE2996D0FA007BE250 /* Debug */,
+				E90289DF2996D0FA007BE250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E90289E42996D2C7007BE250 /* XCRemoteSwiftPackageReference "yuno-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yuno-payments/yuno-sdk-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E90289E52996D2C8007BE250 /* YunoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E90289E42996D2C7007BE250 /* XCRemoteSwiftPackageReference "yuno-sdk-ios" */;
+			productName = YunoSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E90289A52996D0FA007BE250 /* Project object */;
+}
