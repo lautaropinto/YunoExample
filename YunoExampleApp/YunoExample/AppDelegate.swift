@@ -6,14 +6,32 @@
 //
 
 import UIKit
+import YunoSDK
+
+public enum YuboxResult: Int {
+    case reject, succeeded, fail, processing, internalError, userCancell
+    
+    init?(yunoResult: Yuno.Result) {
+        guard let result = YuboxResult(rawValue: yunoResult.rawValue) else  {
+            return nil
+        }
+        self = result
+    }
+}
+
+public protocol YuboxDelegate: AnyObject {
+    
+    func yuboxResult(_ result: YuboxResult)
+}
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    static var delegate: YuboxDelegate?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Yuno.initialize(apiKey: "Yubox_Api_Key")
         return true
     }
 

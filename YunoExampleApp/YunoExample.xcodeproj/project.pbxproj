@@ -16,8 +16,6 @@
 		E90289C82996D0FA007BE250 /* YunoExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289C72996D0FA007BE250 /* YunoExampleTests.swift */; };
 		E90289D22996D0FA007BE250 /* YunoExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289D12996D0FA007BE250 /* YunoExampleUITests.swift */; };
 		E90289D42996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289D32996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift */; };
-		E90289E12996D12D007BE250 /* EnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289E02996D12D007BE250 /* EnvironmentViewController.swift */; };
-		E90289E32996D214007BE250 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289E22996D214007BE250 /* UserDefault.swift */; };
 		E90289E62996D2C8007BE250 /* YunoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = E90289E52996D2C8007BE250 /* YunoSDK */; };
 		E90289E82996D7A0007BE250 /* OptionBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90289E72996D7A0007BE250 /* OptionBViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,8 +51,6 @@
 		E90289CD2996D0FA007BE250 /* YunoExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunoExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90289D12996D0FA007BE250 /* YunoExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunoExampleUITests.swift; sourceTree = "<group>"; };
 		E90289D32996D0FA007BE250 /* YunoExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunoExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E90289E02996D12D007BE250 /* EnvironmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewController.swift; sourceTree = "<group>"; };
-		E90289E22996D214007BE250 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		E90289E72996D7A0007BE250 /* OptionBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,12 +107,10 @@
 				E90289B22996D0FA007BE250 /* SceneDelegate.swift */,
 				E90289B42996D0FA007BE250 /* OptionAViewController.swift */,
 				E90289E72996D7A0007BE250 /* OptionBViewController.swift */,
-				E90289E02996D12D007BE250 /* EnvironmentViewController.swift */,
 				E90289B62996D0FA007BE250 /* Main.storyboard */,
 				E90289B92996D0FA007BE250 /* Assets.xcassets */,
 				E90289BB2996D0FA007BE250 /* LaunchScreen.storyboard */,
 				E90289BE2996D0FA007BE250 /* Info.plist */,
-				E90289E22996D214007BE250 /* UserDefault.swift */,
 			);
 			path = YunoExample;
 			sourceTree = "<group>";
@@ -278,8 +272,6 @@
 				E90289B52996D0FA007BE250 /* OptionAViewController.swift in Sources */,
 				E90289B12996D0FA007BE250 /* AppDelegate.swift in Sources */,
 				E90289E82996D7A0007BE250 /* OptionBViewController.swift in Sources */,
-				E90289E32996D214007BE250 /* UserDefault.swift in Sources */,
-				E90289E12996D12D007BE250 /* EnvironmentViewController.swift in Sources */,
 				E90289B32996D0FA007BE250 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
